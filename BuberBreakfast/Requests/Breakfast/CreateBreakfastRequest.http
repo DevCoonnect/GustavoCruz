@@ -1,0 +1,17 @@
+POST http://localhost:5010/breakfasts
+Content-Type: application/json
+
+{
+    "name": "Pão na chapa",
+    "description": "Pão francês com manteiga na chapa.",
+    "startDateTime": "2022-04-08T08:00:00",
+    "endDateTime": "2022-04-08T11:00:00",
+    "savory": [
+        "Pão francês",
+        "Manteiga",
+        "Oregano",
+        "Queijo"
+    ],
+    "Sweet": []
+
+}
